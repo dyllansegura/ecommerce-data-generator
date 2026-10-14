@@ -2,7 +2,7 @@ ENG. README Version 1.
 
 E-Commerce Synthetic Data Generator
 
-A Python project that generates synthetic e-commerce data using probabilistic distributions, business rules, and relationships between customers, products, and orders. The goal is to create a structured and reproducible dataset that can be used for database practice and data analysis.
+This is a Python project that generates synthetic e-commerce data using probabilistic distributions, business rules, and relationships between customers, products, and orders. The goal is to create a structured and reproducible dataset that can be used for database practice and data analysis.
 
 Project Overview
 
@@ -32,45 +32,7 @@ Technologies
 + Random
 + Datetime
 
-Data Model
-
-The project is organized around three main tables:
-**orders:** Transaction-level information, including products, prices, quantities, dates, and payment methods.
-**customers:** Customer attributes and classifications.
-**products:** Product catalog, categories, base prices, and price ranges.
-
-The tables are connected through customer and product identifiers, allowing the data to be combined for further analysis.
-
-How to Run
-
-1. Install the dependencies
-
-```bash
-pip install pandas numpy openpyxl
-```
-
-2. Run the Python script
-
-Execute the project script in your Python environment.
-
-3. Retrieve the output
-
-The script exports the generated tables to an Excel workbook named `business_plan_project.xlsx`, with separate worksheets for orders, customers, and products.
-
-Potential Applications
-
-The generated dataset can be used for:
-
-+ SQL practice and relational database exercises.
-+ Exploratory data analysis.
-+ Customer and purchasing pattern analysis.
-+ Data cleaning and validation.
-+ Power BI dashboard development.
-+ Practicing data modeling and reporting workflows.
-
-Limitations and Future Improvements
-
-This project is a work in progress. Potential improvements include:
+Future Improvements
 
 + Improving code organization and modularity.
 + Strengthening data validation and referential integrity.
@@ -125,45 +87,7 @@ Tecnologías utilizadas
 + Random
 + Datetime
 
-Modelo de datos
-
-El proyecto se organiza en tres tablas principales:
-+ **orders:** Información de las transacciones, incluidos productos, precios, cantidades, fechas y métodos de pago.
-+ **customers:** Atributos y clasificaciones de los clientes.
-+ **products:** Catálogo de productos, categorías, precios base y rangos de precios.
-
-Las tablas se relacionan mediante identificadores de clientes y productos, lo que permite combinar la información para realizar análisis posteriores.
-
-Cómo ejecutar el proyecto
-
-1. Instalar las dependencias
-
-```bash
-pip install pandas numpy openpyxl
-```
-
-2. Ejecutar el código
-
-Ejecuta el script del proyecto en tu entorno de Python.
-
-3. Obtener los resultados
-
-El script exporta las tablas generadas a un archivo de Excel llamado `business_plan_project.xlsx`, con hojas separadas para pedidos, clientes y productos.
-
-Posibles aplicaciones
-
-Los datos generados pueden utilizarse para:
-
-+ Practicar SQL y bases de datos relacionales.
-+ Realizar análisis exploratorio de datos.
-+ Analizar patrones de compra y comportamiento de clientes.
-+ Practicar limpieza y validación de datos.
-+ Desarrollar dashboards en Power BI.
-+ Practicar modelado de datos y elaboración de reportes.
-
-Limitaciones y mejoras futuras
-
-Este proyecto continúa en desarrollo. Algunas mejoras previstas son:
+Mejoras futuras
 
 + Mejorar la organización y modularidad del código.
 + Fortalecer la validación de datos y la integridad referencial.
