@@ -51,7 +51,7 @@ Author
 
 Industrial Physics Engineer | Python | Data Modeling | Scientific and Quantitative Problem-Solving
 
-##########################################################
+#####################################################################################################
 
 ES. README Versión 1.
 
