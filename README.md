@@ -8,25 +8,24 @@ Project Overview
 
 This project simulates an e-commerce business by generating three related datasets:
 
-+ **Orders:** transaction dates, products, quantities, prices, payment methods, order sizes, and customer segments.
-+ **Customers:** customer classifications, ages, genders, countries, and signup dates.
-+ **Products:** product names, categories, subcategories, base prices, and price ranges.
++ Orders: transaction dates, products, quantities, prices, payment methods, order sizes, and customer segments.
++ Customers: customer classifications, ages, genders, countries, and signup dates.
++ Products: product names, categories, subcategories, base prices, and price ranges.
 
 The generated data covers a simulated period from 2021 to 2025 and incorporates different purchasing patterns to make the dataset more useful for analytical exercises.
 
 Key Features
 
-+ **Synthetic data generation:** creates artificial customer, product, and order records.
-+ **Reproducibility:** uses a fixed random seed for consistent results when the same code and environment are used.
-+ **Probabilistic distributions:** assigns customer classes, countries, payment methods, and other attributes using weighted probabilities.
-+ **Relational data modeling:** connects orders with customers and products through identifiers.
-+ **Business rules:** introduces relationships between product prices, quantities, seasonal periods, and purchasing behavior.
-+ **Data transformation:** uses Pandas to merge, transform, classify, and organize data.
-+ **Excel export:** saves the generated datasets into separate worksheets in a single Excel workbook.
++ Synthetic data generation: creates artificial customer, product, and order records.
++ Reproducibility: uses a fixed random seed for consistent results when the same code and environment are used.
++ Probabilistic distributions: assigns customer classes, countries, payment methods, and other attributes using weighted probabilities.
++ Relational data modeling: connects orders with customers and products through identifiers.
++ Business rules: introduces relationships between product prices, quantities, seasonal periods, and purchasing behavior.
++ Data transformation: uses Pandas to merge, transform, classify, and organize data.
++ Excel export: saves the generated datasets into separate worksheets in a single Excel workbook.
 
-Technologies
+Libraries
 
-+ Python
 + Pandas
 + NumPy
 + Random
@@ -63,25 +62,24 @@ Descripción del proyecto
 
 El proyecto simula el funcionamiento de un negocio de comercio electrónico mediante la generación de tres conjuntos de datos relacionados:
 
-+ **Pedidos (`orders`):** fechas de transacción, productos, cantidades, precios, métodos de pago, tamaños de pedido y segmentos de clientes.
-+ **Clientes (`customers`):** clasificación de clientes, edades, géneros, países y fechas de registro.
-+ **Productos (`products`):** nombres, categorías, subcategorías, precios base y rangos de precios.
++ Orders: fechas de transacción, productos, cantidades, precios, métodos de pago, tamaños de pedido y segmentos de clientes.
++ Customers: clasificación de clientes, edades, géneros, países y fechas de registro.
++ Products: nombres, categorías, subcategorías, precios base y rangos de precios.
 
 Los datos representan un periodo simulado de 2021 a 2025 e incorporan diferentes patrones de compra para facilitar ejercicios de análisis.
 
 Características principales
 
-+ **Generación de datos sintéticos:** creación artificial de registros de clientes, productos y pedidos.
-+ **Reproducibilidad:** uso de una semilla aleatoria fija para obtener resultados consistentes al ejecutar el mismo código en condiciones equivalentes.
-+ **Distribuciones probabilísticas:** asignación de clases de clientes, países, métodos de pago y otros atributos mediante probabilidades ponderadas.
-+ **Modelado de datos relacionales:** conexión de pedidos con clientes y productos mediante identificadores.
-+ **Reglas de negocio:** incorporación de relaciones entre precios, cantidades, temporadas y comportamiento de compra.
-+ **Transformación de datos:** uso de Pandas para combinar, transformar, clasificar y organizar la información.
-+ **Exportación a Excel:** almacenamiento de las tablas generadas en hojas separadas dentro de un mismo archivo.
++ Generación de datos sintéticos: creación artificial de registros de clientes, productos y pedidos.
++ Reproducibilidad: uso de una semilla aleatoria fija para obtener resultados consistentes al ejecutar el mismo código en condiciones equivalentes.
++ Distribuciones probabilísticas: asignación de clases de clientes, países, métodos de pago y otros atributos mediante probabilidades ponderadas.
++ Modelado de datos relacionales: conexión de pedidos con clientes y productos mediante identificadores.
++ Reglas de negocio: incorporación de relaciones entre precios, cantidades, temporadas y comportamiento de compra.
++ Transformación de datos: uso de Pandas para combinar, transformar, clasificar y organizar la información.
++ Exportación a Excel: almacenamiento de las tablas generadas en hojas separadas dentro de un mismo archivo.
 
-Tecnologías utilizadas
+Librerías
 
-+ Python
 + Pandas
 + NumPy
 + Random
